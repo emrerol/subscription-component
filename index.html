@@ -9,10 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="./styles/style.css" />
+
     <title>Subscription Page</title>
   </head>
   <body>
     <div class="main-background">
+      <button id="tikla">Tıkla</button>
       <div class="inner-background">
         <div class="inner-background__texts">
           <label class="inner-background__texts--header">
@@ -44,42 +46,46 @@
                 >299,-<span id="inner">/month</span></span
               >
             </div>
-            <button class="button">Add subscribtion</button>
+            <button class="button">Add subscription</button>
           </div>
           <div class="inner-background__offers">
             <!--Teklif bilgisi-->
             <div class="offer-content">
               <img
-                class="offer-content--img"
-                src="./assets/images/ice.png"
+                class="offer-content--img second"
+                src="./assets/images/telia.png"
                 alt="Ice"
               />
-              <span class="offer-content--package-size">Ice Mobile 10GB</span>
-              <span class="offer-content--package-speed">Up to 100Mbit/s</span>
+              <span class="offer-content--package-size">Telia Mobil 15GB</span>
+              <span class="offer-content--package-speed second"
+                >Unlimited calls, SMS and MMS</span
+              >
               <span class="offer-content--package-bill"
-                >299,-<span id="inner">/month</span></span
+                >953,-<span id="inner">/month</span></span
               >
             </div>
-            <button class="button">Add subscribtion</button>
+            <button class="button">Add subscription</button>
           </div>
           <div class="inner-background__offers">
             <!--Teklif bilgisi-->
             <div class="offer-content">
               <img
-                class="offer-content--img"
-                src="./assets/images/ice.png"
+                class="offer-content--img third"
+                src="./assets/images/telenor.png"
                 alt="Ice"
               />
-              <span class="offer-content--package-size">Ice Mobile 10GB</span>
+              <span class="offer-content--package-size">Telenor Next Fast</span>
               <span class="offer-content--package-speed">Up to 100Mbit/s</span>
               <span class="offer-content--package-bill"
-                >299,-<span id="inner">/month</span></span
+                >1028,-<span id="inner">/month</span></span
               >
             </div>
-            <button class="button">Add subscribtion</button>
+            <button class="button">Add subscription</button>
           </div>
         </div>
+        <button class="seeall-btn">See all subscriptions</button>
       </div>
     </div>
   </body>
+  <script src="index.js"></script>
 </html>
