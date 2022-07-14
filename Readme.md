@@ -1,20 +1,20 @@
-# <span style="color:#66cccc">Buy Subscription Section (Not Finished Yet) </span>
+# Buy Subscription Section (Not Finished Yet)
 
 ### This repository includes the code of the design which shared on UI Design Daily
 
 ---
 
-### <span style="color:#66cccc;">Demo</span>
+### Demo
 
 > Soon..
 
 ---
 
-### <span style="color:#66cccc;">Design Link</span>
+### Design Link
 
 > https://www.uidesigndaily.com/posts/figma-buy-subscription-section-pricing-card-day-1574
 
-### <span style="color:#66cccc;">Project Content</span>
+### Project Content
 
 - I don't use framework in this repository
 - I use SASS as CSS Pre-Processor
