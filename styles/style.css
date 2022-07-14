@@ -74,6 +74,12 @@ span {
   border-radius: 14px;
   box-shadow: -24px -24px #FFFBEC;
 }
+.inner-background__offers.second {
+  box-shadow: -24px -24px #F9ECFF;
+}
+.inner-background__offers.third {
+  box-shadow: -24px -24px #ECEEFF;
+}
 
 .offer-content {
   display: flex;

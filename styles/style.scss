@@ -84,6 +84,14 @@ span {
             height: 326px;
             border-radius: 14px;
             box-shadow: -24px -24px $yellow-bg-color;
+
+            &.second {
+                  box-shadow: -24px -24px $pink-bg-color;
+            }
+
+            &.third {
+                  box-shadow: -24px -24px $blue-bg-color;
+            }
             
       }
       
