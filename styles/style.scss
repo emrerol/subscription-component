@@ -12,6 +12,12 @@ body {
       color: $text-color;
 }
 
+
+span {
+      display: block;
+}
+
+
 .main-background {
       background-color: $main-bg-color;
       position: relative;
@@ -32,10 +38,12 @@ body {
       border-radius: 23px;
       box-shadow: 0 47px 57px -26px $blur-color;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
+      justify-content: flex-start;
       align-items: center;
 
       &__texts {
+            margin-top: 10px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -46,6 +54,7 @@ body {
                   width: 60%;
                   text-align: center;
                   font-size: 32px;
+                  
             }
 
             &--explain {
@@ -54,10 +63,94 @@ body {
                   width: 70%;
                   text-align: center;
                   font-size: 18px;
-                  margin-top: 2px;
+                  margin-top: 24px;
             }
       }
+
+      &__offers--wrapper{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            gap: 60px;
+      }
+
+      &__offers {
+            margin-top: 56px;
+            background-color: $sub-bg-color;
+            width: 285px;
+            height: 326px;
+            border-radius: 14px;
+            box-shadow: -24px -24px $yellow-bg-color;
+            
+
+            // &--offer {
+            //       display: flex;
+            //       flex-direction: column;
+            //       justify-content: left;
+                 
+            // }
+      }
+      
+}
+
+.offer-content{
+      display: flex;
+      flex-direction: column;
+      // gap: 15px;
+      margin: 40px;
+     &--img{
+      width: 43.1px;
+      height: 30px;
+     }
+
+     &--package-size {
+      font-family: $poppins;
+      font-weight: 600;
+      font-size: 18px;
+      margin-top: 16px;
+     }
+
+     &--package-speed {
+      font-family: $poppins;
+      font-weight: 500;
+      font-size: 14px;
+      margin-top: 2px;
+     }
+
+     &--package-bill{
+      font-family: $poppins;
+      font-weight: 700;
+      font-size: 24px;
+      margin-top: 16px;
+      display: inline;
+     }
+
+    
+}
+
+.button-wrapper {
+      margin-top: 40px;
+}
+
+.button{
+      width: 185px;
+      height: 56px;
+      background-color: $inner-btn-color;      
+      border: none;
+      border-radius: 41px;
+      font-family: $poppins;
+      font-weight: 500;
+      font-family: 16px;
+      color: $text-color;
+      cursor: pointer;
+      margin-left: 40px;
+
 }
 
 
-
+#inner {
+      font-family: $poppins;
+      font-weight: 500;
+      font-size: 14px;
+      display: inline;
+     }
