@@ -144,7 +144,8 @@ span {
   border-radius: 41px;
   width: 214px;
   height: 56px;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 
