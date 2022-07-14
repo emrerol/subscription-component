@@ -6,7 +6,7 @@
 
 ### Demo
 
-> Soon..
+> https://subscription-component.vercel.app
 
 ---
 
