@@ -1,4 +1,4 @@
-# Buy Subscription Section (Not Finished Yet)
+# Buy Subscription Section
 
 ### This repository includes the code of the design which shared on UI Design Daily
 
