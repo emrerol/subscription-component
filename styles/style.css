@@ -61,7 +61,7 @@ span {
 .inner-background__offers {
   margin-top: 56px;
   background-color: #FFFFFF;
-  max-width: 285px;
+  width: 285px;
   height: 326px;
   border-radius: 14px;
   box-shadow: -24px -24px #FFFBEC;
