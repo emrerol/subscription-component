@@ -9,19 +9,11 @@
 body {
   box-sizing: border-box;
   color: #171435;
+  background-color: #F1F1F6;
 }
 
 span {
   display: block;
-}
-
-.main-background {
-  background-color: #F1F1F6;
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-  align-items: center;
 }
 
 .inner-background {
@@ -30,7 +22,6 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #F4F5FA;
-  height: 90vh;
   width: 83vw;
   border-radius: 23px;
   box-shadow: 0 47px 57px -26px rgba(84, 84, 146, 0.14);
@@ -38,6 +29,7 @@ span {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  flex-wrap: wrap;
 }
 .inner-background__texts {
   margin-top: 10px;
@@ -48,28 +40,28 @@ span {
 .inner-background__texts--header {
   font-family: "Merriweather", serif;
   font-weight: 900;
-  width: 60%;
+  max-width: 60%;
   text-align: center;
   font-size: 32px;
 }
 .inner-background__texts--explain {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  width: 70%;
+  max-width: 70%;
   text-align: center;
   font-size: 18px;
   margin-top: 24px;
 }
 .inner-background__offers--wrapper {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 60px;
 }
 .inner-background__offers {
   margin-top: 56px;
   background-color: #FFFFFF;
-  width: 285px;
+  max-width: 285px;
   height: 326px;
   border-radius: 14px;
   box-shadow: -24px -24px #FFFBEC;
@@ -171,4 +163,44 @@ span {
   width: 40px;
   text-align: center;
   height: 20px;
+}
+
+@media (max-width: 800px) {
+  .inner-background__texts {
+    margin-top: 30vh;
+  }
+  .inner-background__texts--header {
+    font-size: 24px;
+  }
+  .inner-background__texts--explaing {
+    font-size: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .inner-background__texts {
+    margin-top: 100vh;
+  }
+  .inner-background__texts--header {
+    font-size: 24px;
+  }
+  .inner-background__texts--explaing {
+    font-size: 20px;
+  }
+  .inner-background__offers--wrapper {
+    margin-top: 100px;
+  }
+}
+@media (max-width: 400px) {
+  .inner-background__texts {
+    margin-top: 180vh;
+  }
+  .inner-background__texts--header {
+    font-size: 24px;
+  }
+  .inner-background__texts--explaing {
+    font-size: 20px;
+  }
+  .inner-background__offers--wrapper {
+    margin-top: 80px;
+  }
 }/*# sourceMappingURL=style.css.map */
