@@ -6,7 +6,7 @@
 
 ### Demo
 
-> https://subscription-component.vercel.app
+> https://subscriptioncomponent.netlify.app
 
 ---
 
