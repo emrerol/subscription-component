@@ -2,12 +2,15 @@
 
 ### This repository includes the code of the design which shared on UI Design Daily
 
+
+
 ---
 
 ### Demo
 
 > https://subscriptioncomponent.netlify.app
 
+> There might be some issues about responsivenes. I will check and fix them as soon as possible
 ---
 
 ### Design Link
